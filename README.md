@@ -13,3 +13,12 @@ Decision - Decision making under uncertainty module
 Utils has utility functions to find an effective interest rate and to provide cash flows adjusted to a Least Common Multiple (LCM) time horizon.
 
 If you use any of these tools, please cite this repository.
+
+Other modules in the making:
+1. Inventory Management
+2. Aggregate Planning
+3. Forecasting
+4. Flow Systems Analysis
+
+Well-known packages like scipy, pandas, numpy, sklearn, pulp, etc. were used and will be used in developing the modules in this package. 
+    

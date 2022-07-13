@@ -19,7 +19,7 @@ def effect(r,m, fractional = True):
         Number of compounding periods. In some cases, when a 
         k is used, this factor may be a float. Usually expected to be an int.
         
-        fractional: bool, default = True
+        fractional: bool, default True
         If fractional is true, calculations are
         performed with interest rate as a fractional value; otherwise calculations
         are performed with interest rate as a whole number, i.e. 10%, 15%, etc.
@@ -36,7 +36,7 @@ def effect(r,m, fractional = True):
 
 def cfCommon(cash_flows):
     """ Method to generate common period cash flows, primarily for use in npv
-    and ror analyses. The method follows the lease common multiple rule to
+    and ror analyses. The method follows the least common multiple (LCM) rule to
     generate cash flows over equal periods for comparing alternatives. Cash flows
     are matched with the last cash flow and the initial investment calculated
     as a net cash flow. The cash flows are then broadcasted for the period of

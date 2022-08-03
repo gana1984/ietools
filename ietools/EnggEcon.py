@@ -143,8 +143,8 @@ class equivalence():
             else:
                 return (1 - (1.0+g)**n * (1+i)**-n)/(i-g)
             
-class compareAlt(equivalence):
-    """compareAlt extends equivalence.
+class compareAlt():
+    """compareAlt uses equivalence.
     Class to perform analysis by comparing different alternatives.
     
     Parameters:
@@ -299,8 +299,8 @@ class compareAlt(equivalence):
             print("Converged after ", itr, "iterations")
         return r
     
-class BCRatio(compareAlt):
-    """ BCRatio extends compareAlt.
+class BCRatio():
+    """ BCRatio uses compareAlt.
     A class to perform benefit cost ratio analysis.
     Parameters:
         benefit: lst or array of float

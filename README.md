@@ -6,7 +6,7 @@ University of Wisconsin - Platteville
 
 There are two main modules and one utility module developed for now. Minimal testing has been performed. So, if anyone notices issues, please add Issues, and we will address it.
 
-The main modules in the current version are:
+The main modules in this version are:
  - EnggEcon - Engineering Economy Module
  - Decision - Decision making under uncertainty module
 
@@ -19,6 +19,8 @@ Other modules in the making:
 2. Aggregate Planning
 3. Forecasting
 4. Flow Systems Analysis
+5. Control Charts
+6. Statistical Quality Control
 
 Well-known packages like scipy, pandas, numpy, sklearn, pulp, etc. were used and will be used in developing the modules in this package. 
     

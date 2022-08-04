@@ -5,6 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ietools"
 version = 0.1
+authors = [
+  { name="Gana Natarajn", email="gana1984@gmail.com" },
+]
 description = "A package implementing commonly used Industrial Engineering and Management tools"
 readme = README.md
 requires-python = ">=3.8"

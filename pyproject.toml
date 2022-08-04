@@ -9,7 +9,7 @@ authors = [
   { name="Gana Natarajn", email="gana1984@gmail.com" },
 ]
 description = "A package implementing commonly used Industrial Engineering and Management tools"
-readme = README.md
+readme = "README.md"
 requires-python = ">=3.8"
 keywords = ["industrial engineering", "management", "ie"]
 license = { file = "LICENSE" }

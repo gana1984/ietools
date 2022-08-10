@@ -12,7 +12,9 @@ The main modules in this version are:
 
 Utils has utility functions to find an effective interest rate and to provide cash flows adjusted to a Least Common Multiple (LCM) time horizon.
 
-If you use any of these tools, please cite this repository.
+If you use any of these tools, please cite this repository as follows:
+> Natarajan G. (2022). ietools: A Python Package for Industrial Engineering Applications. Version 0.1. 
+
 
 Other modules in the making:
 1. Inventory Management

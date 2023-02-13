@@ -11,8 +11,8 @@ interest = 0.1
 
 class TestCompAlt(unittest.TestCase):
    
-    def test_npv(self):
-        result = data.npv(interest)
+    def test_npw(self):
+        result = data.npw(interest)
         self.assertAlmostEqual(result, 71.78, places = 2)
     
     def test_euaw(self):

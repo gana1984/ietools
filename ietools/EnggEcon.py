@@ -171,7 +171,7 @@ class compareAlt():
         self.cf = cash_flow
         self.eq = equivalence(convention = convention, fractional = fractional)
     
-    def npv(self,interest):
+    def npw(self,interest):
         """ Method to calculate the present value of the cash flows at i = interest.
         Arguments:
             
